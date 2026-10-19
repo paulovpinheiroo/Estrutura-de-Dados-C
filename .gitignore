@@ -1,0 +1,15 @@
+# Binarios gerados na compilacao
+build/
+output/
+*.o
+*.exe
+*.out
+
+# Ferramentas de uso local
+Makefile
+testes/
+
+# Editores
+.vscode/
+.idea/
+*.swp
