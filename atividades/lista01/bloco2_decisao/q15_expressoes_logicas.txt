@@ -1,0 +1,17 @@
+Questao 15
+
+!3 vale 0, porque 3 e diferente de zero.
+!0 vale 1, porque 0 e zero.
+
+3 + 'a' > 'b' + 2 && !'b'
+
+'a' vale 97 e 'b' vale 98. Entao 3 + 97 = 100 e 98 + 2 = 100.
+100 > 100 e falso, vale 0. Como o && para assim que o lado esquerdo e
+falso, o !'b' nem chega a ser avaliado e o resultado e 0.
+
+1 || !2 && 3
+
+O || tem precedencia sobre o &&, entao a expressao vale (1 || !2) && 3.
+!2 vale 0, 1 || 0 vale 1 e 1 && 3 vale 1.
+
+Saida: 0 1 0 1
