@@ -1,0 +1,14 @@
+Comparacao entre a questao 31 e a questao 32
+
+Na 31 o programa nao sabe quantos numeros vem. Ele le um, processa e le
+o proximo, ate o usuario digitar 0. O zero ali e so um marcador para
+parar.
+
+Na 32 o usuario informa n antes, entao o for ja sabe quantas vezes
+repetir e o zero deixa de ter significado, passa a ser um numero comum.
+
+O resto e igual nos dois: a mesma classificacao e os mesmos acumuladores.
+O que muda e o controle do laco, while com sentinela em um e for com
+contador no outro. A versao com n conhecido tambem e a unica que permite
+trabalhar com indice, entao e a que da para estender para vetores e
+ordenacao.
